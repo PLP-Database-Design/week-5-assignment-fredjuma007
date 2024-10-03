@@ -28,10 +28,8 @@ db.connect((err) => {
 
 // Define the root route
 app.get('/', (req, res) => {
-  res.send('Welcome to the MySQL and Node.js API!');
+  res.send('Hello from the server siiiiiide!');
 });
-
-// Define additional routes here (e.g., for patients and providers)
 
 // Listen to the server
 const PORT = 8090;
